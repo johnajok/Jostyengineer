@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josty Engineerke</title>
+  <style>
+    body {
+      
+      margin
+      padding;
+      background: linear-gradient(#e0f7fa, #ffffff);
+      color: #003366;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #004d99;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 15px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #003366;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .project-card {
+      background: #e6f2ff;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #004d99;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Josty Engineerke</h1>
+    <p>Gospel | Engineering | Activism</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Josty — a 21-year-old gospel artist, electronics engineer, and activist from Bondo, Kenya. As the only son among four sisters, I'm deeply rooted in family, faith, and the future. I’m a student at Bondo TTI, an ordained man of God, and passionate about creating change through innovation and truth.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Innovation Projects</h2>
+    <div class="project-card">
+      <h3>Automatic Lighting System</h3>
+      <p>A smart system designed using capacitors, transistors, and resistors to automate lighting based on environmental conditions.</p>
+    </div>
+    <div class="project-card">
+      <h3>Mobile Solar Kit</h3>
+      <p>A portable solar-powered solution for rural households to charge phones and light rooms affordably.</p>
+    </div>
+  </section>
+
+  <section id="music">
+    <h2>Gospel Music</h2>
+    <p>Be uplifted by my latest gospel songs and messages of faith, hope, and restoration.</p>
+    <audio controls>
+      <source src="your-track.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Email:</strong> ajokjohn551@gmail.com</p>
+    <p><strong>Phone:</strong> +254 746 319 526</p>
+    <p><strong>Location:</strong> Bondo, Kenya</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Josty Engineerke. All rights reserved.</p>
+  </footer>
+</body>
+</html>
